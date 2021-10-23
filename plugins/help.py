@@ -34,7 +34,7 @@ def _start(client, message):
 
                    chat_id=message.chat.id,
 
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/tgxbotz_chat).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/team_dynamic).",
 
                    parse_mode="markdown",
 
@@ -82,9 +82,9 @@ def _start(client, message):
 
                         [
 
-                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/tgxbotz_update"),
+                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/dynamic_studios"),
 
-                           InlineKeyboardButton("Support Group", url="https://t.me/tgxbotz_chat")
+                           InlineKeyboardButton("Support Group", url="https://t.me/team_dynamic")
 
                       ],
 
@@ -110,9 +110,9 @@ def _start(client, message):
 
                 [
 
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/tgxbotz_update"),
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/dynamic_studios"),
 
-                    InlineKeyboardButton("Support Group", url="https://t.me/tgxbotz_chat")
+                    InlineKeyboardButton("Support Group", url="https://t.me/team_dynamic")
 
                 ],
 
@@ -140,21 +140,21 @@ def _source_code(client, message):
 
                 [
 
-                    InlineKeyboardButton("Creator", url="https://t.me/shrvan42")
+                    InlineKeyboardButton("Creator", url="https://t.me/dynamichub")
 
                 ],
 
                 [
 
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/tgxbotz_update"),
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/dynamic_studios"),
 
-                    InlineKeyboardButton("Support Group", url="https://t.me/tgxbotz_chat")
+                    InlineKeyboardButton("Support Group", url="https://t.me/team_dynamic")
 
                 ],
 
                 [
 
-                    InlineKeyboardButton("Creator", url="https://t.me/shrvan42")
+                    InlineKeyboardButton("Creator", url="https://t.me/dynamichub")
 
                 ]
 
@@ -186,7 +186,7 @@ def _help(client, message):
 
                    chat_id=message.chat.id,
 
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/tgxbotz_chat).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/team_dynamic).",
 
                    parse_mode="markdown",
 
@@ -230,7 +230,7 @@ def _help(client, message):
 
                 chat_id=message.chat.id,
 
-                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://t.me/tgxbotz_chat).",
+                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://t.me/team_dynamic).",
 
                 parse_mode="markdown",
 
