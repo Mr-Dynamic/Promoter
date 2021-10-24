@@ -9,7 +9,7 @@ from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant, Usern
 UPDATES_CHANNEL = C.UPDATES_CHANNEL
 logging.basicConfig(level=logging.INFO)
 
-@Client.on_message(filters.incoming & filters.command(['start', 'start@DynamicTestingBot']))
+@Client.on_message(filters.incoming & filters.command(['start', 'start@Dynamiccbot']))
 def _start(client, message):
     update_channel = UPDATES_CHANNEL
     if update_channel:
@@ -73,7 +73,7 @@ def _start(client, message):
         )
 
 
-@Client.on_message(filters.incoming & filters.command(['source_code', 'source_code@DynamicTestingRobot']))
+@Client.on_message(filters.incoming & filters.command(['source_code', 'source_code@Dynamiccbot']))
 def _source_code(client, message):
     client.send_message(message.chat.id,
         text=tr.SC_MSG.format(message.from_user.first_name, message.from_user.id),
@@ -95,7 +95,7 @@ def _source_code(client, message):
         reply_to_message_id=message.message_id
         )
 
-@Client.on_message(filters.incoming & filters.command(['help', 'help@DynamicTestingRobot']))
+@Client.on_message(filters.incoming & filters.command(['help', 'help@Dynamiccbot']))
 def _help(client, message):
     update_channel = UPDATES_CHANNEL
     if update_channel:
